@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(253, 255, 246);
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px;
+  background-color: #000000a3;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro {
+  font-size: 50px;
+  background-image: url(./assets/intro-img.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(30, 16, 16);
+  ;
+
+}
+
+.intro h1 {
+  text-align: center;
+  height: -100px;
+  margin: 0;
+  font-size: 100px;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+  margin: 50px auto 0;
+}
+
+.intro-slogan {
+  font-size: 30px;
+  padding-left: 15px;
+  border-left: 5px solid #d9d9d9;
+}
+
+.intro-slogan p {
+  margin: 0;
+  font-size: 42px;
+}
+
+.intro-button {
+  align-self: flex-end;
+}
+
+.scrollBtn {
+  display: block;
+  padding: 24px 40px;
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
+  border: 2px;
+  transition: all .2s linear;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px;
+  background: rgba(255, 255, 255, 0.25);
+
+
+}
+
+.scrollBtn:hover {
+  color: black;
+  background-color: rgba(251, 251, 251, 0.25);
+  border-radius: 25px;
+  font-size: 40px;
+}
+
+.intro-button button {
+  font-size: 20px;
+  /* border-radius: 10px; */
+  color: #000000;
+  background-color: #d9d9d9;
+  border: 0;
+  padding: 8px 30px;
+  font-size: 32px;
+}
+
+/* Корзина */
+
+
+
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 30px;
+  margin-top: 250px;
+}
+
+.contact-number {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  padding: auto;
+  gap: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  list-style-type: none;
+
+}
+
+.menu li a {
+  display: block;
+  padding: 30px;
+  text-align: end;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all .2s linear;
+  border-right: 1px solid rgb(60, 58, 58);
+
+
+}
+
+.menu li a:hover {
+  background: rgb(60, 58, 58);
+  color: #d9d9d9
+}
+
+.menu li:first-child {
+  border-left: 1px solid rgb(60, 58, 58);
+}
+
+.aple {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  border: #000000;
+}
+
+.bat1 {
+  display: block;
+  padding: 12px 0;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  border: 40px;
+  transition: all .2s linear;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+  background: rgb(150, 255, 185);
+}
+
+.bat1:hover {
+  color: black;
+  background: rgb(60, 252, 124);
+  /* border-radius: 25px; */
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vacancCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000003b;
+  background-color: #fff;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 360px;
+  width: 100%;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+.aple {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.vacancCard h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.vacancCard:hover {
+  color: black;
+  background: rgb(246, 246, 246);
+  transform: translateY(-5px);
+  border-radius:12px;
+}
+
+
+
+
+.search-form {
+  display: flex;
+  margin: 100px auto 0;
+  padding: 0 20px;
+  width: 550px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-right: 10px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.search-form_text {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  background-color: transparent;
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+
+}
+
+.search-button {
+  font-size: 20px;
+  padding: 0 20px;
+  margin-left: 10px;
+  background-color: rgb(103, 103, 255);
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.search-button:hover{
+  background-color: rgb(76, 76, 255);
+
+}
